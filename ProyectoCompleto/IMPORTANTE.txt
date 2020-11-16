@@ -1,0 +1,5 @@
+Nota: Antes de ejecutar la aplicación (el archivo .py de nombre WebScraping) es necesario realizar lo siguiente:
+
+* Al extraer el .rar debe copiar/mover la carpeta de nombre ProyectoCompleto en el disco local C.
+
+Saludos!

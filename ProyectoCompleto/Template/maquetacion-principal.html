@@ -1,0 +1,568 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles.css">
+  <!-- Title -->
+  <title>Proyecto Multicore</title>
+</head>
+<body>
+    <section class="main">
+      <h2 class="main__title">Galeria de Juegos</h2>
+    </section>
+      <div class="carousel__container">
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="https://icdn5.digitaltrends.com/image/tekken7_chars_6-844x1500.jpg" alt=""  />
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+
+              <p class="carousel-item__details--title">Juego: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[0];
+                  var primerJuego = games["1"]
+                  document.write("Nombre: " + primerJuego)
+              </script>
+              <p class="carousel-item__details--price">Precio y pagina </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[0];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[0];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[0];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="http://bloody-disgusting.com/wp-content/uploads/2017/12/outlast2.jpg" alt=""/>
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[1];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[1];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[1];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[1];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="https://dixgamer.com/wp-content/uploads/2018/02/far-cry-5-247x309.png" alt=""/>
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[2];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[2];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[2];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[2];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="https://s2.gaming-cdn.com/images/products/2644/orig/2644.jpg" alt=""  />
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[3];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[3];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[3];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[3];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="https://www.gematsu.com/wp-content/uploads/2020/06/Spider-Man-Miles-Morales-Remaster_06-12-20.jpg" alt=""  />
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[4];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[4];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[4];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[4];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+        
+      </div>
+
+      
+
+    <section>
+      <div class="carousel__container">
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="https://us-east-1.tchyn.io/snopes-production/uploads/2018/05/god-of-war.jpg" alt=""  />
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[5];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[5];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[5];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[5];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2020%2F07%2Fea-sports-kylian-mbappe-cover-athlete-fifa-21-001.jpg?q=75&w=800&cbr=1&fit=max" alt=""  />
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[6];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[6];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[6];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[6];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a5/Grand_Theft_Auto_V.png/220px-Grand_Theft_Auto_V.png" alt=""  />
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[7];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[7];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[7];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[7];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+  
+        <div class="carousel-item">
+          <img id="imagen1" class="carousel-item__img" src="https://cdn.europosters.eu/image/1300/posters/crash-bandicoot-crash-i51501.jpg" alt=""  />
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[8];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[8];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[8];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[8];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="https://upload.wikimedia.org/wikipedia/en/f/f0/Battlefield_V_standard_edition_box_art.jpg" alt=""  />
+          <div class="carousel-item__details">
+              <div>
+                  <img class="carousel-item__details--img" src="./assets/plus-icon.png" alt="Plus Icon">
+              </div>
+              <p class="carousel-item__details--title">Juego:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[9];
+                  var primerJuego2 = games["1"]
+                  document.write("Nombre: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--price1">Precio y pagina: </p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[9];
+                  var primerJuego2 = games["2"];
+                  var precio = primerJuego2[0][0];
+                  var sitioweb = primerJuego2[0][1];
+                  document.write("Precio: " + precio + " - Pagina: " + sitioweb)
+              </script>
+              <p class="carousel-item__details--title">Score:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[9];
+                  var primerJuego2 = games["3"]
+                  document.write("Score: " + primerJuego2)
+              </script>
+              <p class="carousel-item__details--title">Duración:</p>
+              <script src="./GamesData.json">
+              </script>
+              <script class="nombre1">
+                  var games = juegos[9];
+                  var primerJuego2 = games["4"]
+                  document.write(primerJuego2)
+              </script>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+              <p class="carousel-item__details--title"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3>Contactanos</h3>
+          <input type="text" placeholder="Déjame tu email" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/david_19y" class="social-link twitter"></a>
+          <a href="https://www.facebook.com/johan.zamorarojas.3" class="social-link facebook"></a>
+          <a href="https://github.com/Hugo-Mendez" class="social-link github"></a>
+          <a href="https://www.instagram.com/jzamora_19/" class="social-link instagram"></a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="/">Jonathan Mendoza</a>
+      <a href="/">Hugo Méndez</a>
+      <a href="/">Johan Zamora</a>
+    </footer>
+</body>
+</html>
